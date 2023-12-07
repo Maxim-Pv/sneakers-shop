@@ -27,19 +27,19 @@ Users should be able to:
 ### Screenshot
 
 ![active-states-cart-empty](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/active-states-cart-empty.jpeg)
-[active-states-cart-filled](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/active-states-cart-filled.jpeg)
-[active-states-lightbox](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/active-states-lightbox.jpeg)
-[hover-state](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/hover-state.jpeg)
-[mibile-cart-filled](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mibile-cart-filled.jpeg)
-[mobile-cart-empty](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-cart-empty.jpeg)
-[mobile-design](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-design.jpeg)
-[mobile-menu](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-menu.jpeg)
+![active-states-cart-filled](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/active-states-cart-filled.jpeg)
+![active-states-lightbox](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/active-states-lightbox.jpeg)
+![hover-state](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/hover-state.jpeg)
+![mibile-cart-filled](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mibile-cart-filled.jpeg)
+![mobile-cart-empty](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-cart-empty.jpeg)
+![mobile-design](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-design.jpeg)
+![mobile-menu](https://github.com/Maxim-Pv/sneakers-shop/blob/master/screenshots/mobile-menu.jpeg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Maxim-Pv/sneakers-shop)
-- Live Site URL: [Add live site URL here](https://maxim-pv.github.io/sneakers-shop/)
+- Solution URL: [MySolution](https://github.com/Maxim-Pv/sneakers-shop)
+- Live Site URL: [VisiteSite](https://maxim-pv.github.io/sneakers-shop/)
 
 ## My process
 
