@@ -1,0 +1,68 @@
+.icon1::before,
+.icon2::before,
+.icon3::before,
+.icon4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  border-radius: 12px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon1 {
+  background: url(../../../../images/image-product-1-thumbnail.jpg) no-repeat;
+}
+
+.icon2 {
+  background: url(../../../../images/image-product-2-thumbnail.jpg) no-repeat;
+}
+
+.icon3 {
+  background: url(../../../../images/image-product-3-thumbnail.jpg) no-repeat;
+}
+
+.icon4 {
+  background: url(../../../../images/image-product-4-thumbnail.jpg) no-repeat;
+}
+
+.icon {
+  position: relative;
+  background-size: cover;
+  height: 78px;
+  width: 78px;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.icon:focus::before,
+.icon:hover::before {
+  opacity: 0.6;
+  transition: opacity .3s;
+}
+
+.icon:focus {
+  border: 2px solid hsl(26, 100%, 55%);
+}
+
+.icon[tabindex="0"] {
+  outline: none;
+}
+
+.modal_icon {
+  width: 70px;
+  height: 70px;
+}
+
+
+@media (max-width: 800px) {
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+}

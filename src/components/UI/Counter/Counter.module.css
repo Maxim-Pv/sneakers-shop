@@ -1,0 +1,80 @@
+.addToCartContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.plusMinus {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 6px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.btnCount {
+  border: none;
+  cursor: pointer;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.btnCount:hover svg path{
+  fill: hsl(26deg 100% 61% / 50%);
+  transition: fill .2s linear;
+}
+
+.btnAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color:  hsl(26, 100%, 55%);   
+  filter: drop-shadow(0mm 8mm 5mm hsl(25, 100%, 94%));
+  color: white;     
+  cursor: pointer;
+  z-index: 0;
+}
+
+.btnAdd:hover {
+  background-color:  hsl(26deg 100% 61% / 50%);
+  transition: background-color .2s linear;
+}
+
+.cartInBtn {
+  margin-right: 8px;
+}
+
+.cartInBtn svg path {
+  fill: white;
+}
+
+@media (max-width: 523px) { 
+  .btnAdd {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 390px) { 
+  .addToCartContent {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .plusMinus {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+  }
+
+  .btnAdd {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.autor {
+  padding-left: 10px;
+  text-decoration: none;
+  color: hsl(26, 100%, 55%);
+}

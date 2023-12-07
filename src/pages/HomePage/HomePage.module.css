@@ -1,0 +1,105 @@
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_text {
+    width: 50%;
+    padding: 81px 43px 58px 58px;
+}
+
+.subtitle {
+    margin-top: 54px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.description {
+    margin-bottom: 23px;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -0.7px;
+    color: grey;
+}
+
+.container_forPrice {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.mainPriceVsDiscount {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.mainPrice {
+    margin-right: 14px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.discount {
+    padding: 3px 7px;
+    border-radius: 8px;
+    background-color: hsl(25, 100%, 94%);
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+}
+
+.crossOutPrice {
+    color: grey;
+}
+
+@media (max-width: 800px) {
+  .container_text {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_content {
+    display: block;
+    width: 100%;
+  }
+
+  .container_text {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .heading {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .description {
+    padding-right: 15px;
+  }
+
+  .container_forPrice {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .mainPrice {
+    font-size: 25px;
+  }
+}
