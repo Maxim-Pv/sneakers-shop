@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [MySolution](https://github.com/Maxim-Pv/sneakers-shop)
-- Live Site URL: [VisiteSite](https://maxim-pv.github.io/sneakers-shop/)
+- Live Site URL: [VisiteSite](https://sneakers-shop-eight.vercel.app/)
 
 ## My process
 
