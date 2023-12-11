@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between; 
   list-style-type: none;
+  z-index: 0;
 }
 
 /* modal */
@@ -100,6 +101,7 @@
 }
 
 .modal_items {
+  position: relative;
   padding: 0 25px;
 }
 

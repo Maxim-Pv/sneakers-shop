@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <div style={{ margin: '20% 45%' }}>ContactPage</div>
   )
 }
 

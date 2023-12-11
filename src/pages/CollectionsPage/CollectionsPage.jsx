@@ -2,7 +2,7 @@ import React from 'react'
 
 const CollectionsPage = () => {
   return (
-    <div>CollectionsPage</div>
+    <div style={{ margin: '20% 45%' }}>CollectionsPage</div>
   )
 }
 
