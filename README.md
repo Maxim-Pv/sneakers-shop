@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [MySolution](https://github.com/Maxim-Pv/sneakers-shop)
-- Live Site URL: [VisiteSite](https://sneakers-shop-eight.vercel.app/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/cart-and-product-viewer-app-75j3rQHoYT)
+- Live Site URL: [site](https://sneakers-shop-eight.vercel.app/)
 
 ## My process
 
