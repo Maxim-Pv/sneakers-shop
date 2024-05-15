@@ -15,7 +15,6 @@ const Image = () => {
   const handleOpenModal = (open) => {
     setIsVisible(open);
     setModalSelectedImg(selectedImg);
-    console.log('modal');
   }
 
   const handleCloseModal = (close) => {
