@@ -1,22 +1,23 @@
 import { NavLink, Link } from 'react-router-dom'
 import Cart from '../UI/Cart/Cart'
+// import { useState } from 'react'
+import useOutside from '../useOutside'
 import './Navbar.css'
-import { useState } from 'react'
 
 const Navbar = () => {
-  const [burgerOpen, setBurgerOpen] = useState('')
+  const { ref, isVisible, setIsVisible } = useOutside(false);
   
   const handleBurgerClick = () => {
-    setBurgerOpen((prev) => !prev);
+    setIsVisible((prev) => !prev);
   }
 
   return (
     <>
       <div className="overlay"></div>
-      <header className={`container__navbar ${burgerOpen ? 'open' : ''}`}>
+      <header className={`container__navbar ${isVisible ? 'open' : ''}`}>
       <div className="overlay"></div>
         <div className='logoVsNav'>
-          <button className='burger' 
+          <button ref={ref} className='burger' 
             onClick={handleBurgerClick}
           >
             <span></span><span></span><span></span>
